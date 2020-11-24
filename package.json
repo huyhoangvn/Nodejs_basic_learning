@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_basic_learning",
+  "version": "1.0.0",
+  "description": "Nodejs is runtime eviroment for running js\r Non-blocking Asynchronous (a single threat handle multiple request not like it gonna wait)\r Doesnt have to wait database to return data.\r While database is exercute the query, that thread will be used to be serve another client\r When database prepare a result it put a message in what we call an event queue,\r Nodejs is continuously monitoring in the back ground when it find an event in this queue it will take it out and processing",
+  "main": "lesson1.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huyhoangvn/Nodejs_basic_learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huyhoangvn/Nodejs_basic_learning/issues"
+  },
+  "homepage": "https://github.com/huyhoangvn/Nodejs_basic_learning#readme"
+}

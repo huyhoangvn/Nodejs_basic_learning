@@ -8,3 +8,7 @@ Nodejs is continuously monitoring in the back ground when it find an event in th
 
 //I/O intensive apps -> scalable 
 //os, fs, events, http
+
+
+Start-Process powershell -Verb runAs
+Set-ExecutionPolicy Unrestricted
