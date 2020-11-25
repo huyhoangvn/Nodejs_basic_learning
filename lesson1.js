@@ -62,5 +62,5 @@ app.get('/add/:animal/:score?', function(request, response){
 })
 
 app.get('*', function(request, response){
-    response.status(404).send('Unable to load ' + request.params);
+    response.status(404).send('Unable to load ' + request);
 })
